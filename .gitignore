@@ -3,3 +3,5 @@
 .cursorrules
 /venv
 /ffmpeg
+memory_service\memory_data
+memory_data

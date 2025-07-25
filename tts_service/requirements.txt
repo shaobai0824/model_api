@@ -1,0 +1,17 @@
+# TTS 服務相關套件
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# TTS 引擎套件
+edge-tts>=6.1.0          # Microsoft Edge TTS (推薦)
+gTTS>=2.4.0              # Google Text-to-Speech
+pyttsx3>=2.90            # 本地 TTS 引擎
+
+# 音訊處理
+pydub>=0.25.0
+
+# 工具套件
+python-dotenv>=1.0.0
+
+# 日誌與監控
+python-json-logger>=2.0.0 

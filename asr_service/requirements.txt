@@ -1,0 +1,28 @@
+# ASR 服務相關套件
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# AI/ML 核心套件
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+safetensors>=0.4.0
+
+# 音訊處理
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+
+# 網路請求
+requests>=2.31.0
+httpx>=0.25.0
+
+# 工具套件
+numpy>=1.24.0
+scipy>=1.11.0
+Pillow>=10.0.0
+
+# 日誌與監控
+python-json-logger>=2.0.0 

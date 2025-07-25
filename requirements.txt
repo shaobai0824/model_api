@@ -1,0 +1,62 @@
+# =====================================
+# 語音助理 LINE Bot 專案主要套件清單
+# =====================================
+
+# Web 框架
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# LINE Bot SDK
+line-bot-sdk==3.5.0
+
+# AI/ML 核心套件
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+safetensors>=0.4.0
+
+# 音訊處理
+librosa>=0.10.0
+soundfile>=0.12.0
+pydub>=0.25.0
+
+# TTS 引擎
+edge-tts>=6.1.0
+gTTS>=2.4.0
+pyttsx3>=2.90
+
+# HTTP 客戶端
+aiohttp==3.8.5  # 固定版本以配合 line-bot-sdk
+httpx>=0.25.0
+requests>=2.31.0
+
+# 工具套件
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+numpy>=1.24.0
+scipy>=1.11.0
+Pillow>=10.0.0
+
+# 日誌與監控
+python-json-logger>=2.0.0
+
+# =====================================
+# 安裝說明：
+# 
+# 1. 基礎安裝 (所有服務共用)：
+#    pip install -r requirements.txt
+# 
+# 2. 個別服務安裝：
+#    pip install -r asr_service/requirements.txt
+#    pip install -r linebot_service/requirements.txt  
+#    pip install -r tts_service/requirements.txt
+# 
+# 3. GPU 支援 (推薦)：
+#    # 先安裝 PyTorch GPU 版本
+#    pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+#    # 再安裝其他套件
+#    pip install -r requirements.txt
+# ===================================== 

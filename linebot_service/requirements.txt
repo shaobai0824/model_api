@@ -1,0 +1,20 @@
+# LINE Bot 服務相關套件
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# LINE Bot SDK
+line-bot-sdk==3.5.0
+
+# HTTP 客戶端 (使用相容版本，避免編譯問題)
+aiohttp>=3.8.0,<4.0.0
+httpx>=0.25.0
+requests>=2.31.0
+
+# 工具套件
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# 日誌與監控
+python-json-logger>=2.0.0 

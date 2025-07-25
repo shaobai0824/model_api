@@ -1,0 +1,5 @@
+.env
+/debug_audio
+.cursorrules
+/venv
+/ffmpeg

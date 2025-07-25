@@ -1,0 +1,32 @@
+{
+  "user_id": "U858da25bdd371174b6ea5ab6dccd883b",
+  "messages": [
+    {
+      "role": "user",
+      "content": "今天是星期幾？",
+      "timestamp": "2025-07-25T17:54:01.912244",
+      "message_type": "voice"
+    },
+    {
+      "role": "assistant",
+      "content": "今天是星期五。有什麼我可以幫忙的嗎？",
+      "timestamp": "2025-07-25T17:54:03.577041",
+      "message_type": "voice"
+    },
+    {
+      "role": "user",
+      "content": "我一擺擺，肚子很餓，要吃什麼比較好？",
+      "timestamp": "2025-07-25T17:54:29.595723",
+      "message_type": "voice"
+    },
+    {
+      "role": "assistant",
+      "content": "如果你想吃點輕食，沙拉或是水果是不錯的選擇；如果想吃飽飽的，可以考慮一些主食搭配蔬菜和蛋白質食物，例如三明治、燉飯或是烤雞等。不過，最重要的是聆聽自己的身體，選擇讓自己滿足的食物。你有什麼喜歡的食物或想要避免的食物嗎？",
+      "timestamp": "2025-07-25T17:54:32.406958",
+      "message_type": "voice"
+    }
+  ],
+  "preferences": {},
+  "last_interaction": "2025-07-25T17:54:32.406958",
+  "total_messages": 4
+}

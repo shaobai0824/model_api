@@ -32,6 +32,14 @@ for /f "tokens=5" %%i in ('netstat -ano ^| findstr ":8003 "') do (
     )
 )
 
+REM 🧠 終止佔用端口 8004 的程序 (記憶服務)
+for /f "tokens=5" %%i in ('netstat -ano ^| findstr ":8004 "') do (
+    if not "%%i"=="0" (
+        echo 終止記憶服務 (PID: %%i)
+        taskkill /PID %%i /F >nul 2>&1
+    )
+)
+
 REM 額外安全措施：終止所有相關的 Python 程序
 echo.
 echo 🧹 清理相關 Python 程序...
@@ -42,6 +50,7 @@ if %errorlevel% == 0 (
     wmic process where "name='python.exe' and commandline like '%%asr_server.py%%'" delete >nul 2>&1
     wmic process where "name='python.exe' and commandline like '%%tts_server.py%%'" delete >nul 2>&1
     wmic process where "name='python.exe' and commandline like '%%linebot_server.py%%'" delete >nul 2>&1
+    wmic process where "name='python.exe' and commandline like '%%memory_server.py%%'" delete >nul 2>&1
 )
 
 timeout /t 2 >nul

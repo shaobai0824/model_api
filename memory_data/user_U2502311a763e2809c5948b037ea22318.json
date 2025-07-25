@@ -1,0 +1,20 @@
+{
+  "user_id": "U2502311a763e2809c5948b037ea22318",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你吃飽了嗎？",
+      "timestamp": "2025-07-25T18:41:32.504692",
+      "message_type": "voice"
+    },
+    {
+      "role": "assistant",
+      "content": "我是一個 AI，不需要進食，但很高興能和你聊天。有什麼可以幫助你的嗎？",
+      "timestamp": "2025-07-25T18:41:34.636432",
+      "message_type": "voice"
+    }
+  ],
+  "preferences": {},
+  "last_interaction": "2025-07-25T18:41:34.636432",
+  "total_messages": 2
+}

@@ -1,0 +1,41 @@
+{
+  "user_id": "test_user_123",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好，我是新用戶",
+      "timestamp": "2025-07-25T16:55:09.137912",
+      "message_type": "text"
+    },
+    {
+      "role": "assistant",
+      "content": "您好！很高興認識您！",
+      "timestamp": "2025-07-25T16:55:09.139968",
+      "message_type": "text"
+    },
+    {
+      "role": "user",
+      "content": "我喜歡聽音樂",
+      "timestamp": "2025-07-25T16:55:09.142488",
+      "message_type": "voice"
+    },
+    {
+      "role": "assistant",
+      "content": "音樂是很棒的興趣！您喜歡什麼類型的音樂呢？",
+      "timestamp": "2025-07-25T16:55:09.144541",
+      "message_type": "voice"
+    },
+    {
+      "role": "user",
+      "content": "我喜歡古典音樂和爵士樂",
+      "timestamp": "2025-07-25T16:55:11.193551",
+      "message_type": "text"
+    }
+  ],
+  "preferences": {
+    "language": "formal",
+    "music_preference": "classical"
+  },
+  "last_interaction": "2025-07-25T16:55:11.193551",
+  "total_messages": 5
+}

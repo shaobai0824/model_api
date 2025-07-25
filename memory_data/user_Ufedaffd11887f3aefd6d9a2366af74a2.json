@@ -1,0 +1,68 @@
+{
+  "user_id": "Ufedaffd11887f3aefd6d9a2366af74a2",
+  "messages": [
+    {
+      "role": "user",
+      "content": "我今年25歲",
+      "timestamp": "2025-07-25T17:36:22.063099",
+      "message_type": "text"
+    },
+    {
+      "role": "assistant",
+      "content": "祝您生日快樂！",
+      "timestamp": "2025-07-25T17:36:24.022072",
+      "message_type": "text"
+    },
+    {
+      "role": "user",
+      "content": "我今年幾歲",
+      "timestamp": "2025-07-25T17:36:34.251851",
+      "message_type": "text"
+    },
+    {
+      "role": "assistant",
+      "content": "抱歉，我無法得知您的年齡。",
+      "timestamp": "2025-07-25T17:36:35.452487",
+      "message_type": "text"
+    },
+    {
+      "role": "user",
+      "content": "我今年25歲 身高182體重65",
+      "timestamp": "2025-07-25T18:03:22.722507",
+      "message_type": "text"
+    },
+    {
+      "role": "assistant",
+      "content": "看來您保持得很健康！如果您有任何健康或健身方面的問題，都歡迎向我諮詢。",
+      "timestamp": "2025-07-25T18:03:24.479928",
+      "message_type": "text"
+    },
+    {
+      "role": "user",
+      "content": "我是誰",
+      "timestamp": "2025-07-25T18:03:32.189203",
+      "message_type": "text"
+    },
+    {
+      "role": "assistant",
+      "content": "您是一位使用者，我們在這裡進行對話。如果您有任何問題或需要幫助，請隨時告訴我。",
+      "timestamp": "2025-07-25T18:03:34.304550",
+      "message_type": "text"
+    },
+    {
+      "role": "user",
+      "content": "我的基本資料我的年齡是幾歲",
+      "timestamp": "2025-07-25T18:03:50.212323",
+      "message_type": "text"
+    },
+    {
+      "role": "assistant",
+      "content": "根據您先前提供的信息，您告訴我您今年25歲。如果有任何其他問題或需要進一步幫助，請隨時告訴我。我很樂意繼續協助您。",
+      "timestamp": "2025-07-25T18:03:52.072955",
+      "message_type": "text"
+    }
+  ],
+  "preferences": {},
+  "last_interaction": "2025-07-25T18:03:52.072955",
+  "total_messages": 10
+}

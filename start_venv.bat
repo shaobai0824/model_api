@@ -31,6 +31,10 @@ echo 啟動 TTS 語音合成服務 (Port 8003)...
 start "TTS Service (venv)" cmd /k "call venv\Scripts\activate.bat && python tts_service/tts_server.py"
 timeout /t 3 /nobreak >nul
 
+echo 🧠 啟動記憶服務 (Port 8004)...
+start "Memory Service (venv)" cmd /k "call venv\Scripts\activate.bat && python memory_service/memory_server.py"
+timeout /t 3 /nobreak >nul
+
 echo 啟動 LINE Bot 主服務 (Port 8000)...
 start "LINE Bot Service (venv)" cmd /k "call venv\Scripts\activate.bat && python linebot_service/linebot_server.py"
 
@@ -43,6 +47,7 @@ echo 各服務已在新視窗中啟動：
 echo   • LINE Bot 主服務:    http://localhost:8000
 echo   • ASR 語音辨識服務:   http://localhost:8001
 echo   • TTS 語音合成服務:   http://localhost:8003
+echo   • 🧠 記憶服務:        http://localhost:8004
 echo.
 echo LINE Bot Webhook URL: http://your-domain:8000/webhook
 echo.
